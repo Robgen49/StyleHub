@@ -1,0 +1,17 @@
+.appbar__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width:900px) {
+        flex-direction: column;
+    }
+}
+
+.catalog {
+    display: flex;
+}
+
+.favorite {
+    display: flex;
+}
