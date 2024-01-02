@@ -1,0 +1,39 @@
+.price {
+    font-size: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+.hover {
+    filter: opacity(90%);
+    transform: scale(101%);
+}
+
+.cardWrapper{
+    position: relative;
+    transition: filter .2s ease;
+}
+
+.favorite {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    background: none !important;
+    border: none !important;
+    & img{
+        width: 40px;
+    }
+}
+
+.cart {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background: none !important;
+    border: none !important;
+    & img{
+        width: 40px;
+    }
+}

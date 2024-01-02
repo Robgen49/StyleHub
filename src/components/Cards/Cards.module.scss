@@ -1,0 +1,29 @@
+.container{
+    // padding: 10px;
+    margin-bottom: 30px;
+}
+
+.totalPrice{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    --bs-bg-opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.totalPriceTitle{
+    font-size: 50px;
+}
+
+.totalPriceValue{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.buy{
+
+}

@@ -1,0 +1,11 @@
+.blockTitle {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}

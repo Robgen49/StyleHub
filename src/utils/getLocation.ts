@@ -1,6 +1,6 @@
 export default function getLocation(lat: number, lon: number): Promise<string> {
-    const url = "#https://suggestions.dadata.ru/suggestions/api/4_1/rs/geolocate/address";
-    const token = "#e61fdeeefd83e68eb39f48efe488b07072fad28d";
+    const url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/geolocate/address";
+    const token = "e61fdeeefd83e68eb39f48efe488b07072fad28d";
     const query = { lat: lat, lon: lon };
 
     const options: RequestInit = {
